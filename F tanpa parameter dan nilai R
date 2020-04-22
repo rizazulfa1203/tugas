@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+
+//function tanpa parameter dan nilai return
+void fungsi (){
+	cout<< "ini adalah function tanpa parameter"<<endl;
+	cout<< "function ini tanpa nilai return"<<endl;
+	cout<< endl;
+}
+int main (){
+	fungsi();
+}
