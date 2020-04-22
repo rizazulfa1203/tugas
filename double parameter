@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+
+double pembagian (double t, double k){
+	return t / k;
+}
+int main(){
+	cout<< "ini adalah hasil dari pembagian function"<< endl;
+	cout<< pembagian (47.5, 1.5);
+}
