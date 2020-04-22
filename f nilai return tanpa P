@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+
+//ini adalah function nilai return tanpa parameter
+int fungsi (){
+	int a = 8, b = 12;
+	return a * b;
+}
+int main (){
+	cout<<"Ini adalah hasil dari function tanpa parameter"<<endl;
+	cout << fungsi ();
+}
