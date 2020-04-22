@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+
+//function parameter dan nilai return
+int perkalian (int angka1, int angka2){
+	return angka1* angka2;
+}
+int main (){
+	cout<< "hasil perkalian function (9, 9) adalah"<< endl;
+	cout<< perkalian (9, 9);
+}
